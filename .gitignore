@@ -1,0 +1,6 @@
+﻿.venv/
+extracted_pdfs/
+master_clauses.csv
+*.png
+__pycache__/
+.ipynb_checkpoints/
