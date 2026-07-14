@@ -193,3 +193,7 @@ Recall of 1.0 across the board means the pipeline never misses a clause CUAD ide
 
 - **Semantic search over clauses (embeddings):** Not implemented in this submission due to time constraints. If pursued, the natural approach would be to chunk each contract's text, embed each chunk, and build a similarity index (e.g. FAISS) — separate from the whole-document clause extraction pipeline above, since semantic search over sub-document spans is exactly the use case chunking is suited for.
 - **Few-shot prompting experiments:** Not implemented in this submission. The current prompt is zero-shot; a natural next step would be adding 2–3 worked examples (contract excerpt → correct extraction) directly in the prompt to see whether precision improves against CUAD's narrower ground-truth categories specifically.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
